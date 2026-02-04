@@ -1,5 +1,8 @@
-x = "this is a thing"
+x = input("put something: ")
 y= x.split( )
-z = y[0]
-print(y)
-print(z)
+k=len(y)
+if k== 1:
+    print("your sentence has",k,"word")
+else:
+    print("your sentence has",k,"words")
+
